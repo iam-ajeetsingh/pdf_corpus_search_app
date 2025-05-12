@@ -1,0 +1,22 @@
+pdfplumber==0.10.2
+pytesseract==0.3.10
+pdf2image==1.16.3
+Pillow==10.1.0
+tqdm==4.66.2
+langchain
+faiss-cpu
+sentence_transformers
+streamlit
+numpy
+
+
+
+
+
+
+
+# Make sure you install poppler and Tesseract (these are system-level dependencies):
+
+#sudo apt update
+#sudo apt install poppler-utils tesseract-ocr
+
