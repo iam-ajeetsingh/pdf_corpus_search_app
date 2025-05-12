@@ -1,0 +1,63 @@
+Peer Review Framework for Predictive Analytics
+in Humanitarian Response
+MODEL REPORT:
+Global Displacement Monitoring
+UN OCHA Centre for Humanitarian Data
+June 2023
+Model Report:
+Global Displacement Monitoring
+1.Background
+This document summarizes the documentation and findings of the peer review of the global
+displacement monitoring model that has been developed by the UN OCHA Centre for
+Humanitarian Data. This model creates a simple flagging systemthatusesglobaldatasources
+to raise an alert when a potential shock or humanitarian consequence may have occurred that
+could require global attention. For this review, the focus is on a model flagging displacement
+data, where alerts are generated based on abnormal levels of displacement seen within a
+countryorstaticthresholdsbeingmet,withdifferenttimepoints.
+ThereviewhasbeenconductedbetweenFebruaryandJune2023.
+2.MainFindingsandRecommendations
+You can find all the documentation regarding the model, its application and the reviewprocess
+atthefollowinglinks:
+● The Model Card describes version 1.0 of the model and was completed in February
+2023.
+● The Model Evaluation Matrix was completed in February 2023 by an expert on
+displacementdata.
+● The Implementation Plan was completed in March 2023.It summarizes how the model
+output is used to alert the UN Central Emergency Response Fund team about a
+deterioratingsituation.
+● The Ethical Matrix aims to identify all stakeholders and potential issues regarding the
+intended use of the model. The Ethical Matrix was completed in May 2023 by Fanny
+Weicherding,DataResponsibilityOfficerattheUNOCHACentreforHumanitarianData.
+Asummaryofthemainfindingsandrecommendationsisprovidedbelow.
+2.1TechnicalReview
+ModelDevelopmentandDocumentation
+There are no major issues that would seriously impact the validity of the model. The main
+recommendation is to ensure that dynamic displacementsituationsarecorrectlyflaggedbythe
+model. Also, in addition to percentile-based thresholds, additional warning thresholdsbasedon
+theabsolutenumberofpeopledisplacedcouldbeaddedtothemodel.
+ModelEvaluation
+It should be clarified in the documentation that the alert system has been designed with a
+specific use case in mind and may not be appropriate for other potential use cases. It is
+therefore recommended to better articulate the situations in which the model is expected to
+havegoodperformancecomparedtothosethatthemodelisexpectedtomiss.
+2.2EthicalReview
+Inaccuracy
+Inaccuracyreferstotheoutputgeneratedbythemodelnotbeingaccurate.
+If the model is inaccurate,itdoesnotimprovethestatusquoofresourceallocation/information
+available to the CERF.Itisthereforerecommendedthatthemodelinaccuraciesarediscussedin
+detailwiththeCERFteam.
+InsufficientData
+Insufficientdatareferstogapsindatatotheextentthatnoreliablepredictioncanbemade.
+For the end user (CERF) this would be a high priority risk as it would to the team relying on a
+modelthatdoesn’tprovidereliableoutputs.
+SystematicBias
+Systematic bias refers to the datasets used to train the algorithm not reflecting the full
+complexityofthereality.
+This issue is of high priority as it could potentially lead to ill informed decisions by the CERF
+team and eventually a misallocation of resources. It is therefore recommended to always
+validate the information from the model with local partners and use alternative tools, - where
+available-tocomplement/validatethemodel.
+Feedback
+The Centre invites individuals and organizations working in the humanitarian, academic,
+researchandprivatesectortoengagewithusonthepeerreviewprocess.Pleasesendfeedback
+ontheFrameworktocentrehumdata@un.org.
