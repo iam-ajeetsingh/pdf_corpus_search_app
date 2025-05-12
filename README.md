@@ -3,6 +3,7 @@
 A secure, local, and AI-powered application for searching through large volumes of internal PDFs using **semantic** and **keyword** search. 
 
 ---
+![GUI Screenshot](gui_preview.png)
 
 ## 🚀 Features
 
